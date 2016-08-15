@@ -1,0 +1,7 @@
+.libPaths("E:/rWork/rLibrary")
+.First = function() cat("\n Welcome Dhiraj to R ")
+.Last = function() cat("\n Thanks for working in R")
+Sys.setenv(https_proxy="")
+Sys.setenv(http_proxy="")
+Sys.getenv("http_proxy")
+options(digits=3)
