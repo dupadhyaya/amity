@@ -1,0 +1,23 @@
+@relation R_data_frame
+
+@attribute outlook {sunny,overcast,rainy}
+@attribute temperature {Cool,High,Warm}
+@attribute humidity {High,Mild}
+@attribute windy {FALSE,TRUE}
+@attribute play {yes,no}
+
+@data
+sunny,High,High,FALSE,no
+sunny,Warm,High,TRUE,no
+overcast,High,High,FALSE,yes
+rainy,Cool,High,FALSE,yes
+rainy,Cool,High,FALSE,yes
+rainy,Cool,Mild,TRUE,no
+overcast,Cool,Mild,TRUE,yes
+sunny,Warm,High,FALSE,no
+sunny,Cool,Mild,FALSE,yes
+rainy,Warm,High,FALSE,yes
+sunny,Warm,Mild,TRUE,yes
+overcast,Warm,High,TRUE,yes
+overcast,High,High,FALSE,yes
+rainy,Warm,High,TRUE,no

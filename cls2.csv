@@ -1,0 +1,15 @@
+Age,Income,Student,Credit_Rating,Buys_PC
+<=30,High,0,Fair,0
+<=30,High,0,Excellent,0
+31..40,High,0,Fair,1
+>40,Medium,0,Fair,1
+>40,Low,1,Fair,1
+>40,Low,1,Excellent,0
+31..40,Low,1,Excellent,1
+<=30,Low,1,Excellent,1
+<=30,Medium,0,Fair,0
+>40,Low,1,Fair,1
+<=30,Medium,1,Fair,1
+31..40,Medium,1,Excellent,1
+31..40,Medium,0,Excellent,1
+>40,Medium,0,Excellent,0
